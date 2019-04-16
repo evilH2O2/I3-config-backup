@@ -31,3 +31,5 @@ polybar/
 
 1 directory, 7 files
 ```
+
+![i3wm.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/i3wm.png)
