@@ -1,12 +1,12 @@
 # I3-config-backup
-Arch Linux + I3wm + polybar 
+Arch Linux + I3wm + polybar + mpd + uRxvt
 
 
 ``` bash
 # i3 directory tree
 i3/
 ├── config
-└── i3script
+└── i3script [使用 polybar后，这些文件就不用了]
     ├── battery
     ├── batteryStatus.sh
     ├── disk
