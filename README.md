@@ -32,5 +32,17 @@ polybar/
 1 directory, 7 files
 ```
 
+``` bash
+# ncmpcpp config
+/root/.ncmpcpp/
+├── config
+└── error.log
+
+0 directories, 2 files
+
+# mpd config
+/etc/mpd.conf
+```
+
 ![i3wm.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/i3wm.png)
 ![windows.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/windows.png)
