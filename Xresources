@@ -1,0 +1,69 @@
+! ------ ~/.Xresources -----
+! 刷新配置: xrdb -merge  ~/.Xresources
+!
+! ----- font ---
+Xft.dpi:96
+URxvt.font: xft:Inconsolata Nerd:size=11, xft:DejaVuSansMono Nerd:size=11, xft:Source Code Pro:size:9, xft:WenQuanYi Micro Hei:size=10
+! DejaVuSansMono 配合 Vim 插件 file ico
+!URxvt.font: xft:Fira Code:size=10, xft:WenQuanYi Micro Hei:size=10
+!字体间距
+! URxvt.letterSpace: 1
+
+! ------  tiao ------
+Rxvt.scrollBar:False
+
+! ---- background ----
+URxvt.depth:32
+URxvt.background:[90]#282c35
+! URxvt.foreground:#00bcd4
+URxvt.foreground:#fff
+URxvt.colorBD:Gray95
+URxvt.colorUL:#e60a6e
+URxvt.color1:#ffc107
+URxvt.color4:RoyalBlue
+URxvt.color5:Magenta2
+URxvt.color8:Gray50
+URxvt.color10: #00bcd4
+URxvt.color12:DodgerBlue
+URxvt.color14:#e91e63
+URxvt.color15:Gray95
+
+! ---------- 光标 ----
+URxvt.cursorBlink:True
+URxvt.saveLines:3000
+
+! ----- tabs ---
+URxvt.tabbed.tabbar-fg: 12
+URxvt.tabbed.tabbar-bg : 0
+URxvt.tabbed.tab-fg: 6
+URxvt.tabbed.tab-bg: 0
+
+! --- bell ----
+URxvt.urgenOnBell: True
+
+! --- icons ----
+! URxvt.iconFile: /path/01.png!
+
+! ------- input ----------
+URxvt.inputMethod: fcitx
+
+
+! ---- 边框 ----
+
+URxvt.borderLess: False
+
+
+! Normal copy-paste keybindings without perls
+! Ctrl+Shift c /C+S v 复制粘贴 | From : https://www.v2ex.com/t/508104
+URxvt.iso14755:                   false
+URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+
+! 若不设置此选项，则在使用w3m后，neofetch 则不再显示图片,甚至不显示任何东西
+! From : https://github.com/dylanaraps/neofetch/issues/1174
+URxvt.internalBorder: 0
+
+
+! ---------- Other --------
+Rxvt.preeditType:Root
+
