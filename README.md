@@ -44,5 +44,12 @@ polybar/
 /etc/mpd.conf
 ```
 
+``` bash
+wallpaper/
+└── wallhaven-762358.jpg
+
+0 directories, 1 file
+```
+
 ![i3wm.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/i3wm.png)
 ![windows.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/windows.png)
