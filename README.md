@@ -1,5 +1,5 @@
 # I3-config-backup
-Arch Linux + I3wm + polybar + mpd + uRxvt
+Arch Linux + I3wm + polybar + mpd + uRxvt [其他配置](https://gist.github.com/evilH2O2/f5ae9e0545e2debb4151cba18ef43843)
 
 
 ``` bash
