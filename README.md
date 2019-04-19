@@ -5,16 +5,9 @@ Arch Linux + I3wm + polybar + mpd + uRxvt [其他配置](https://gist.github.com
 ``` bash
 # i3 directory tree
 i3/
-├── config
-└── i3script [使用 polybar后，这些文件就不用了]
-    ├── battery
-    ├── batteryStatus.sh
-    ├── disk
-    ├── mediaplayer
-    ├── memory
-    └── wifi
+└── config
 
-1 directory, 7 files
+0 directories, 1 file
 ```
 
 ``` bash
@@ -53,3 +46,4 @@ wallpaper/
 
 ![i3wm.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/i3wm.png)
 ![windows.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/windows.png)
+![nemo](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-04-19-192941_1919x1079_scrot.png)
