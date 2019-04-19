@@ -27,11 +27,11 @@ polybar/
 
 ``` bash
 # ncmpcpp config
-/root/.ncmpcpp/
-├── config
-└── error.log
+# /root/.ncmpcpp/
+.ncmpcpp/
+└── config
 
-0 directories, 2 files
+0 directories, 1 file
 
 # mpd config
 /etc/mpd.conf
