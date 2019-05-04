@@ -45,7 +45,7 @@ floating_modifier $mod
 # bindsym $mod+Return exec i3-sensible-terminal
 # urxvt透明:
 # urxvt -fg lightgray -bg black -bc -tr -tint lightgray -sh 60 -sr
-bindsym $mod+Return exec urxvt -tr -tint lightgray -sh 50 -sr
+bindsym $mod+Return exec urxvt -tr -tint lightgray -sh 35 -sr
 
 # kill focused window
 bindsym $mod+Shift+q kill

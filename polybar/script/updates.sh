@@ -1,26 +1,5 @@
 # #!/bin/sh
 
-# if ! updates_arch=$(checkupdates 2> /dev/null | wc -l ); then
-#     updates_arch=0
-# fi
-
-# if ! updates_aur=$(yay -Qum 2> /dev/null | wc -l); then
-# # if ! updates_aur=$(cower -u 2> /dev/null | wc -l); then
-# # if ! updates_aur=$(trizen -Su --aur --quiet | wc -l); then
-# # if ! updates_aur=$(pikaur -Qua 2> /dev/null | wc -l); then
-#     updates_aur=0
-# fi
-
-# updates=$(("$updates_arch" + "$updates_aur"))
-
-# if [ "$updates" -gt 0 ]; then
-#     echo "# $updates"
-# else
-#     echo ""
-# fi
-
-#!/usr/bin/env bash
-
 BAR_ICON=""
 NOTIFY_ICON=/usr/share/icons/Papirus/32x32/apps/system-software-update.svg
 
@@ -46,11 +25,6 @@ while true; do
     # when there are updates available
     # every 10 seconds another check for updates is done
     while (( UPDATES > 0 )); do
-        #if (( UPDATES == 1 )); then
-        #    echo " $UPDATES Update"
-        #elif (( UPDATES > 1 )); then
-        #    echo " $UPDATES Updates"
-        #else
         if (( UPDATES == 1 )); then
             echo " $UPDATES"
         elif (( UPDATES > 1 )); then

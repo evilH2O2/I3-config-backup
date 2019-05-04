@@ -12,3 +12,5 @@ polybar -c ~/.config/polybar/bottom-config.ini bottom &
 
 
 echo "Bars launched..."
+
+
