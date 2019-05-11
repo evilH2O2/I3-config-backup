@@ -224,7 +224,7 @@ gaps inner 10
 gaps top   8
 gaps left  8
 gaps right 8
-gaps bottom 20
+gaps bottom 22
 
 set $default_gaps_inner 8
 set $default_gaps_outer -4
