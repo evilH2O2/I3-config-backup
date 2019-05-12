@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# 自动切换壁纸
+# source ~/.config/polybar/script/killWallpaper.sh
+command=$(ps aux | grep 'wallpapers.go' | grep -Eo "[0-9][0-9]|[0-9][0-9][0-9]|[0-9][0-9][0-9][0-9]|[0-9][0-9][0-9][0-9][0-9]" | head -1)
+kill -9 $command;
+
 # Terminate already running bar instances
 killall -q polybar
 
