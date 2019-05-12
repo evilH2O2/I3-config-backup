@@ -12,17 +12,20 @@ i3/
 
 ``` bash
 # polybar directory tree
-polybar/
+polybar
 ├── bottom-config.ini
 ├── color.ini
+├── launch_polubar.sh
 ├── launch.sh
 ├── module.ini
 ├── script
-│   └── updates.sh
+│   ├── killWallpaper.sh
+│   ├── update.sh
+│   └── wallpapers.go
 ├── top-config.ini
 └── user_modules.ini
 
-1 directory, 7 files
+1 directory, 10 files
 ```
 
 ``` bash
@@ -48,3 +51,4 @@ wallpaper/
 ![windows.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/windows.png)
 ![nemo](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-04-19-192941_1919x1079_scrot.png)
 ![wallpaper](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-04-21-070410_1919x1079_scrot.png)
+![wallpaper](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-05-12-202815_1919x1079_scrot.png)
