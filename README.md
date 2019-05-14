@@ -40,21 +40,9 @@ polybar
 /etc/mpd.conf
 ```
 
-``` bash
-previews
-├── 2019-04-19-192941_1919x1079_scrot.png
-├── 2019-04-21-070410_1919x1079_scrot.png
-├── 2019-05-12-202815_1919x1079_scrot.png
-├── 2019-05-14-084116_1919x1079_scrot.png
-├── i3wm.png
-├── README.md
-└── windows.png
-
-0 directories, 7 files
-```
 
 ![i3wm.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/i3wm.png)
-![windows.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-05-14-084116_1919x1079_scrot.png)
-![nemo](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-04-19-192941_1919x1079_scrot.png)
 ![wallpaper](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-04-21-070410_1919x1079_scrot.png)
 ![wallpaper](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-05-12-202815_1919x1079_scrot.png)
+![windows.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-05-14-084116_1919x1079_scrot.png)
+![nemo](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-05-14-085124_1919x1079_scrot.png)
