@@ -1,5 +1,5 @@
 icon=""
-if ! update_pacman=$(checkupdates 2> /dev/null | wc -l ); then
+if ! update_pacman=$(n 2>/dev/null | pacman -Syu 2>/dev/null | grep -E "\([0-9]*\)" -o | grep -E "[0-9]*" -o); then
     update_pacman=0
 fi
 
@@ -17,8 +17,9 @@ fi
 
 # echo "$icon $update_pacman:$update_aur"
 
-if [[ "$update_pacman" -gt 0 && "$update_aur" -gt 0 ]]; then
+if [[ "$update_pacman" -eq 0 && "$update_aur" -eq 0 ]]; then
     echo "$icon $update_pacman  $update_aur"
 else
     echo "$icon $update_pacman  $update_aur"
 fi
+

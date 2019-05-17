@@ -55,6 +55,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec rofi -show drun -theme Adapta-Nokto -show-icons -drun-icon-theme Papirus
 bindsym $mod+q exec rofi -show run -theme Adapta-Nokto
 
+bindsym $mod+Tab exec rofi -show window -window-format{w} {c}-{t}
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
@@ -185,6 +186,9 @@ bindsym ctrl+$mod+e exec --no-startup-id caja
 # --release 参数，使命令在松开按键之后执行
 bindsym --release Shift+Print exec --no-startup-id scrot -s
 
+# gnome-terminal两个终端切换使用
+bindsym $mod+t exec gnome-terminal
+
 
 # 背光: xorg-xbacklight
 # 具体查看: https://wiki.archlinux.org/index.php/Backlight
@@ -210,7 +214,6 @@ bindsym XF86AudioLowerVolume exec "amixer set Master 5%-"
 bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
 
 
-
 # ====== Mpc ========
 # period = . | comma = ,
 #
@@ -221,7 +224,7 @@ for_window [class=".*"] border pixel 0
 
 gaps inner 10
 # gaps outer 10
-gaps top   8
+gaps top   6
 gaps left  8
 gaps right 8
 gaps bottom 22
