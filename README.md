@@ -44,5 +44,5 @@ polybar
 ![i3wm.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/i3wm.png)
 ![wallpaper](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-04-21-070410_1919x1079_scrot.png)
 ![wallpaper](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-05-12-202815_1919x1079_scrot.png)
-![windows.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-05-14-084116_1919x1079_scrot.png)
+![windows.png](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-05-18-083541_1919x1079_scrot.png)
 ![nemo](https://github.com/evilH2O2/I3-config-backup/blob/master/previews/2019-05-14-085124_1919x1079_scrot.png)
