@@ -70,6 +70,11 @@ ZSH_THEME="mytheme"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+#
+# git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+# zsh-syntax-highlighting =>  In .zshrc source "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+
 plugins=(git zsh-autosuggestions)
 
 
@@ -77,6 +82,9 @@ plugins=(git zsh-autosuggestions)
 
 # ======================== Key ==============================
 # ===========================================================
+autoload -U compinit
+compinit
+
 alias chromium="chromium --no-sandbox --proxy-server='socks5://127.0.0.1:1080'" 
 alias terproxy="export ALL_PROXY=socks5://127.0.0.1:1080"
 alias audio="alsamixer"
@@ -88,6 +96,7 @@ alias vsCode="code --user-data-dir /root"
 alias dockerRUN="systemctl start docker"
 alias pandoc-PDF='pandoc --pdf-engine=xelatex -V CJKmainfont="HYLuoHuaShi" -V mainfont="Source Code Pro" -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" --highlight-style tango'
 alias ll="ls -l"
+alias la="ls -a"
 alias gisto="gisto --args --proxy-server='socks5://127.0.0.1:1080'"
 alias sqlmap="python /root/Tools/sqlmap-dev/sqlmap.py"
 
